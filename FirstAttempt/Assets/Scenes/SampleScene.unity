@@ -595,7 +595,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710179857}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: edd5918df082d1743a2356ecbd6d4695, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -755,6 +755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1937341479}
   - component: {fileID: 1937341478}
+  - component: {fileID: 1937341480}
   m_Layer: 0
   m_Name: Area Light
   m_TagString: Untagged
@@ -814,6 +815,18 @@ Transform:
   m_Father: {fileID: 180799994}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1937341480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937341477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef3e6fa598e0aa42872511cf9ef6cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2815020965669543406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2815020965669543406, guid: 310f688f4e5873a4caf035a85e4bce11,
@@ -887,5 +900,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5965819173093351897, guid: 310f688f4e5873a4caf035a85e4bce11,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: a0e3e71b2b97dbb4ea8093a239cfff35,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 310f688f4e5873a4caf035a85e4bce11, type: 3}
